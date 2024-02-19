@@ -5,14 +5,14 @@ export const projects = [
   },
   {
     name: "Projeto de modelagem do Sigma secondo form",
-    description: "Atividade Praticando Children",
+    description: "Modelagem para impressão 3D do ultimo chefe na forma final de Megaman X",
   },
   {
     name: "Projeto Kenzie M3 Sprint 2",
-    description: "Descrição do projeto",
+    description: "Atividade Praticando Children",
   },
   {
     name: "Projeto de animação de uma clínica",
-    description: "Descrição do projeto",
+    description: "Crianção de Animação para exemplificar casos de uso de medicamentos para pacientes",
   },
 ];

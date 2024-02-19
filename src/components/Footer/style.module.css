@@ -1,12 +1,12 @@
 .footer{
     padding: 2rem 0;
-    margin:2rem;
     border-top  : 2px solid grey;
     border-bottom : 2px solid grey;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 .contatos{
@@ -16,9 +16,6 @@
     width: 6.25rem;
 }
 
-.contatos li{
-
-}
 
 .left {
     width: 50%;
@@ -30,4 +27,25 @@
 .right{
     text-align: right;
     width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .right{
+        text-align: right;
+        width: 100%;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
 }

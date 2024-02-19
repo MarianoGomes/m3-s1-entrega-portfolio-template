@@ -4,7 +4,8 @@
 @import url(./button.css);
 
 section, header, footer{
-    width: 100%;
+    width: calc(100% - 2rem);
+    margin: auto;
     max-width: 56.25rem;
     margin-inline: auto;
     display: flex;

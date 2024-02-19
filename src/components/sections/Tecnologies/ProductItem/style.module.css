@@ -1,6 +1,5 @@
 .item{
     flex-wrap: wrap;
-
     margin: 10px 0;
     width: 32%;
     padding: 20px 40px;
@@ -12,4 +11,12 @@
 
 .item img{
     margin-right: 1.5rem; 
+}
+
+
+@media screen and (max-width: 600px) {
+    .item{
+        width: 100%;
+        gap:1rem
+    }
 }

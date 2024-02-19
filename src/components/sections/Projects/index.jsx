@@ -1,30 +1,31 @@
 import gitIcon from "../../../assets/git-icon.png";
 import {projects} from "../../../data/projects.js"
+import style from "./style.module.css"
 
 export const Projects = () => {
     return (
-        <section>
-            <h2 className="title2">Projetos</h2>
-            <ul>
-                
+        <section className={style.section}>
+            <div className={style.secName}>
+                <h2 className="title2">Projetos</h2>
+            </div>
+            <ul className={style.ulProject}>
                 {
-                technologies.map((projects) => (
-                    const { name, description } = projects;
-                    return (
+                    projects.map((projects) => (
+                  
                         <li>
-                            <div>
-                                <h3 className="title3">Projeto 1</h3>
+                            <div className={style.testeira}>
+                                <h3 className="title3">{projects.name}</h3>
                                 <img src={gitIcon} alt="#" />
                             </div>
-                            <div>
-                                <p className="paragraph">Descrição do Projeto</p>
+                            <div className={style.conteudo}>
+                                <p className="paragraph">{projects.description}</p>
                                 <a href="#">Saiba mais</a>                    
                             </div>
                         </li>
-                    )
-                ))
-                }
+                        
+                    ))
 
+                }
 
             </ul>
 
