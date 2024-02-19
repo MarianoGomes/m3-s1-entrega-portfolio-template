@@ -1,0 +1,10 @@
+.secAboutMe{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.customTitle2 {
+    width: 70rem;
+    padding-right: 1rem;
+}

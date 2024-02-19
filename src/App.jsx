@@ -1,10 +1,9 @@
-function App() {
+import { LandingPage } from "./pages/LandingPage"
+import "./styles/index.css"
 
-  return (
-    <>
-      
-    </>
-  )
+
+function App() {
+  return <LandingPage />;
 }
 
 export default App

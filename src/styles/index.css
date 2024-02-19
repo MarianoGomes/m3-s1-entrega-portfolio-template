@@ -1,0 +1,18 @@
+@import url(./reset.css);
+@import url(./global.css);
+@import url(./typography.css);
+@import url(./button.css);
+
+section, header, footer{
+    width: 100%;
+    max-width: 56.25rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section { margin: 4rem auto;}
+
+a { color: var(--color-link);}
+a:hover { color: var(--color-purple);}

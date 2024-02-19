@@ -1,0 +1,15 @@
+.btn {
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    padding: 1.25rem 1.95rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 0.75rem;
+    padding: 10px 20px;
+    transition: ease 0.5s;
+}
+
+.btn:hover { 
+    background-color: var(--color-link); 
+    transition: ease 0.5s;
+}
